@@ -22,6 +22,13 @@ require_once __DIR__ . '/header.php';
               </ul>
             </div>
           </nav>
+        <div class = "container">
+          <div class = "row">
+          <form>
+            <input type="text" name="search" placeholder="Search..">
+          </form>
+          </div>
+        </div>
         
               <div class="container">
                 <h2>Data Table</h2>

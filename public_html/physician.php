@@ -13,7 +13,7 @@
     <body> 
       <!-- Header Title -->
       <h1 class="head">eHealth PD Application</h1>    
-        <h2 class="head2"> Welcome to Physician Page </h2>
+        <h2 class="head2"> Welcome to Doctor Page </h2>
         <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
              <div class="collapse navbar-collapse" id="navbarNav">
           		<ul class="navbar-nav pull-right">
@@ -21,7 +21,15 @@
               </ul>
             </div>
         </nav>
-        
+      
+      	<div class = "container">
+          <div class = "row">
+          <form>
+            <input type="text" name="search" placeholder="Search..">
+          </form>
+          </div>
+        </div>
+      
         <!-- Data Table -->
         <div class="container">
                 <h2>Data Table</h2>
